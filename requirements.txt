@@ -1,2 +1,4 @@
 flask
 pillow
+python-dotenv
+requests

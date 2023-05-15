@@ -29,8 +29,8 @@ def get_png():
 
 
 def track_api_execution():
-    api_secret = os.getenv(api_secret)
-    measurement_id = os.getenv(measurement_id)
+    api_secret = os.getenv("api_secret")
+    measurement_id = "G-CRTZZ2HL4S"
     url = 'https://www.google-analytics.com/mp/collect?measurement_id=' + \
         api_secret+'&api_secret='+measurement_id
 
